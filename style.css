@@ -21,7 +21,7 @@ nav ul {
     
     display: flex;
     justify-content: space-between;  
-   
+    
 }
 
 nav ul li a {
@@ -41,10 +41,11 @@ nav ul li a:hover {
 main {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    flex-direction: column; 
 }
 main section {
-    display: flex;
+    display: block;
     max-width: 867px;
     margin: 0 auto;
     flex-flow: row wrap;
@@ -54,10 +55,10 @@ main section article {
     flex: 1 1 calc(33.33% - 20px);
     margin: 0 10px 15px;
     padding: 10px 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
 }
-main section article p,
-main section article h3 {
+
+main section article h1 {
     margin: 5px 0 0 0;
 }
 
