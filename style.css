@@ -38,37 +38,3 @@ nav ul li a:hover {
     border-bottom: darkblue solid 3px;   
 }
 
-main {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;  
-    flex-direction: column; 
-}
-main section {
-    display: block;
-    max-width: 867px;
-    margin: 0 auto;
-    flex-flow: row wrap;
-    padding: 15px 0;
-}
-main section article {
-    display: flex;
-    margin: 0 10px 15px;
-    padding: 10px 15px;  
-}
-
-main section article h1 {
-    margin: auto 15px;
-}
-
-.gray {
-    height: 150px;
-    background-color: gray;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    content: "Picture";
-    margin: -15px;
-    margin-bottom: 0;
-}
